@@ -1,0 +1,141 @@
+
+@media (max-width:1010px) {
+  #contact::before{
+    
+    height: 82%;
+    width: 100%;  
+}
+
+}
+
+
+@media(max-width:894px){
+       
+  .h-primary {
+      font-size: 2.8rem;
+      padding: 12px;
+      text-align: center;
+  }
+
+  
+#home p{
+  color:black;
+  /* text-align: center; */
+  font-size: 1.3rem;
+  font-family: 'Bree Serif',serif;
+  width:60vmin;
+}
+
+#navbar{
+  flex-direction: column;
+}
+#navbar ul li a{
+font-size: 1rem;
+padding: 0px 10px;
+}
+
+/* Home */
+#home::before{
+height: 555px;
+}
+#home{
+height: 450px;
+padding:2px 16px;
+}
+#home h1{
+font-size: 35px;
+
+}
+
+/* services */
+.services{
+  flex-direction: column;
+}
+
+/* client */
+#client-section{
+overflow: hidden;
+margin-top: 17px;
+height: 320px;
+}
+
+
+
+#client-section img {
+  height: 34px;
+  margin: 4px;
+  border-radius: 15px;
+}
+
+#contact::before{
+  height: 82%;
+  width: 100%;
+  
+}
+.contact-deatil form {
+  width: 65%;
+}
+}
+
+@media (max-width:360px){
+  #client-section {
+    overflow: hidden;
+    margin-top: 17px;
+    height: 250px;
+}
+
+#client-section{
+  margin-top: 30px;
+  height: 250px;
+}
+
+#client-section::before{
+  
+  height: 30%;
+  width: 100%;
+  
+}
+#contact::before {
+  height: 76%;
+  width: 100%;
+}
+#contact{
+  height: 550px;
+}
+}
+
+
+@media(max-width:280px){
+
+#client-section::before{
+ 
+  height: 25%;
+  width: 100%;
+  
+}
+
+#client-section{
+  margin-top: 30px;
+  height: 200px;
+}
+
+#contact::before{
+ 
+  height: 82%;
+  width: 100%;
+ 
+}
+.contact-deatil form{
+  width: 70%;
+ }
+ #contact {
+  height: 525px;
+}
+
+footer{
+ 
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+}
